@@ -3,7 +3,7 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-var config=require('../myapp/config/config')
+var config=require('./config/config')
 var ceshiRouter = require('./routes/ceshi');
 
 var app = express();
